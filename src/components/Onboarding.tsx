@@ -12,7 +12,7 @@ function Onboarding() {
   };
 
   return (
-    <div>
+    <div className="h-screen">
       {isTutorialCompleted ? (
         <div>
           <h1>Welcome back!</h1>
